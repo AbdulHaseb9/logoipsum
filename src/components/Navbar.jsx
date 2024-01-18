@@ -45,7 +45,7 @@ export const Navbar = () => {
               Get Started
             </button>
             <i
-              class="fa-solid fa-bars-staggered md:hidden"
+              className="fa-solid fa-bars-staggered md:hidden cursor-pointer"
               onClick={() => setrespnav(!respnav)}
             ></i>
           </div>

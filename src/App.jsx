@@ -5,6 +5,7 @@ import { Navbar } from "./components/Navbar";
 import { Partners } from "./components/Partners";
 import { Plan } from "./components/Plan";
 import { Subscription } from "./components/Subscription";
+import "./App.css"
 
 function App() {
   return (
