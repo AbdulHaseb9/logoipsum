@@ -3,12 +3,7 @@ import depthimg from "../assets/Images/depth.png"
 export const Depth = () => {
     return (
         <>
-            {/* <div className="w-ful flex justify-center">
-                <div className="w-4/5 md:flex md:items-center">
-                    <div></div>
-                </div>
-            </div> */}
-            <div className="w-full flex justify-center mt-14 px-5">
+            <div id="blog" className="w-full flex justify-center mt-14 px-5">
                 <div className="w-full sm:w-4/5 sm:flex sm:items-center">
                     <div className="sm:w-1/2 text-center sm:text-left">
                         <h1 className="text-3xl font-bold">In-depth metrics</h1>

@@ -4,7 +4,7 @@ export const Plan = () => {
   const [plan, setplan] = useState(false);
   return (
     <>
-      <div className="w-full flex justify-center py-24">
+      <div id="pricing" className="w-full flex justify-center py-24">
         <div className="w-4/5">
           <div className="sm:flex text-center sm:justify-between items-end">
             <div className="text-3xl font-bold sm:text-left">

@@ -5,7 +5,7 @@ import imgthree from "../assets/Images/Benifits/Icon 003.png"
 export const Benifits = () => {
     return (
         <>
-            <div className="w-full flex justify-center mt-10">
+            <div id="benefits" className="w-full flex justify-center mt-10">
                 <div className="w-4/5 flex flex-wrap">
                     <div className="w-full md:w-1/3 mt-5 text-center flex justify-center flex-col items-center">
                         <img src={imgone} alt="Benifit one" className="w-40" />

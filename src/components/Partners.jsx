@@ -8,7 +8,7 @@ export const Partners = () => {
   return (
     <>
       <div className="w-full flex justify-center mt-16">
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-10 md:gap-x-20 lg:gap-x-16 xl:gap-x-20">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-10 md:gap-x-36 lg:gap-x-10 xl:gap-x-[84px]">
           <img src={partnerone} className="w-24 mt-6" alt="Partner One" />
           <img src={partnertwo} className="w-24 mt-6" alt="Partner One" />
           <img src={partnerthree} className="w-24 mt-6" alt="Partner One" />

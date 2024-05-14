@@ -19,19 +19,19 @@ export const Navbar = () => {
               Homes
             </a>
             <a
-              href="#"
+              href="#benefits"
               className="text-[#696871] font-medium text-sm mx-2 hover:pb-2 hover:border-solid hover:border-b-2 hover:border-[#5454D4]"
             >
               Features
             </a>
             <a
-              href="#"
+              href="#pricing"
               className="text-[#696871] font-medium text-sm mx-2 hover:pb-2 hover:border-solid hover:border-b-2 hover:border-[#5454D4]"
             >
               Pricing
             </a>
             <a
-              href="#"
+              href="#blog"
               className="text-[#696871] font-medium text-sm mx-2 hover:pb-2 hover:border-solid hover:border-b-2 hover:border-[#5454D4]"
             >
               Blog
@@ -41,6 +41,7 @@ export const Navbar = () => {
             <button
               href="#"
               className="bg-[#FF7143] hidden md:block px-4 py-2 text-white font-semibold rounded-lg"
+              onClick={() => alert('Welcome to logoipsum')}
             >
               Get Started
             </button>
@@ -65,7 +66,7 @@ export const Navbar = () => {
               </li>
               <li className="my-3">
                 <a
-                  href="#"
+                  href="#benefits"
                   className="text-sm mx-2 hover:border-solid hover:border-b-2 hover:border-[#5454D4] font-medium"
                 >
                   Features
@@ -73,7 +74,7 @@ export const Navbar = () => {
               </li>
               <li className="my-3">
                 <a
-                  href="#"
+                  href="#pricing"
                   className="text-sm mx-2 hover:border-solid hover:border-b-2 hover:border-[#5454D4] font-medium"
                 >
                   Pricing
@@ -81,7 +82,7 @@ export const Navbar = () => {
               </li>
               <li className="my-3">
                 <a
-                  href="#"
+                  href="#blog"
                   className="text-sm mx-2 hover:border-solid hover:border-b-2 hover:border-[#5454D4] font-medium"
                 >
                   Blog
@@ -93,6 +94,7 @@ export const Navbar = () => {
             <button
               href="#"
               className="bg-[#FF7143] px-4 py-2 text-white font-semibold rounded-lg"
+              onClick={() => alert('Thnx for started')}
             >
               Get Started
             </button>
